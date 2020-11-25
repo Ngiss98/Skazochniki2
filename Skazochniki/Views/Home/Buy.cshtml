@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Buy</title>
+</head>
+<body>
+    <h1>
+        Тестовое оформление покупки
+    </h1>
+    <hr>
+
+    <form method="post" action="">
+        <input name="ItemId" value="@ViewBag.Id"/>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>ФИО</td>
+                    <td><input type="text" name="FIO"/></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="Email" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="отправить"/></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+</html>
